@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "bytz"
+version = "0.0.1"
+description = "Library for easily making bit/byte mapped structures"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    {name = "Mack Kilness", email = "lordofbeez@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+# [project.urls]
+#     "Homepage" = ""
+#     "Bug Reports" = ""
+#     "Source" = ""
+
+[tool.setuptools.packages.find]
+where = ["src"]
